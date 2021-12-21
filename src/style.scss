@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-fortepress-newspaper-columns {
+	p:first-of-type {
+		margin-top: 0;
+	}
+	.block-editor-block-list__layout {
+		*:first-child {
+			margin-top: 0;
+		}
+	}
+}

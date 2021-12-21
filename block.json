@@ -1,0 +1,29 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "fortepress/newspaper-columns",
+	"version": "0.1.0",
+	"title": "Newspaper Columns",
+	"category": "design",
+	"icon": "columns",
+	"description": "Set the number of columns and watch the text flow, just like a newspaper.",
+	"supports": {
+		"html": false,
+		"align": ["full", "wide", "center"]
+	},
+	"attributes": {
+		"columns" : {
+			"type" : "integer",
+			"default" : 3
+		},
+		"minWidth" : {
+			"type" : "integer",
+			"default" : 225
+		}
+
+	},
+	"textdomain": "newspaper-columns",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
