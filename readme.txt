@@ -1,5 +1,5 @@
 === Newspaper Columns ===
-Contributors:      fortepress, phil_webs
+Contributors:      fortepress, philwebs
 Tags:              block
 Tested up to:      5.8.1
 Stable tag:        1.0.0
@@ -10,10 +10,9 @@ Set the number of columns and watch the text flow, just like a newspaper.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+The newspaper column block allows you to set a number of columns and have the content flow from one column to the next. Works well with paragraphs and list blocks.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+
 
 == Installation ==
 
